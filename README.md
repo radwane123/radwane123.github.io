@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Attestation Authentique - CASNOS</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            border: 1px solid #b5e0b5;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        h2 {
+            color: green;
+        }
+        h4 {
+            color: #f55;
+            margin-top: -10px;
+        }
+        .data {
+            text-align: left;
+            direction: ltr;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .qr-img {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <img class="qr-img" src="https://api.qrserver.com/v1/create-qr-code/?data=https://radwane123.github.io/attestation_casnos.html&size=300x300" alt="QR Code">
+
+    <h2>Attestation authentique</h2>
+    <h4>Veuillez vérifier les informations personnelles</h4>
+
+    <div class="container">
+        <div class="data">
+            <p><strong>N° attestation:</strong> E2520312934</p>
+            <p><strong>Nom:</strong> ahmed</p>
+            <p><strong>Prenom:</strong> berdoh</p>
+            <p><strong>Date de naissance:</strong> 25-10-1975</p>
+            <p><strong>Fils de:</strong> عمران بن كمال &nbsp;&nbsp;&nbsp; <strong>Et de:</strong> جميلة كريم</p>
+            <p><strong>Adresse:</strong> BAIDHA BORDJ , SETIF</p>
+            <p><strong>Date délivrance:</strong> 07-08-2025</p>
+        </div>
+    </div>
+
+</body>
+</html>
